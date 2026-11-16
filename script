@@ -1,0 +1,11 @@
+local Terrain = workspace.Terrain
+
+-- Su altı görüş mesafesini maksimuma çıkar
+Terrain.WaterTransparency = 1
+
+-- Suyun rengini ayarla
+Terrain.WaterColor = Color3.fromRGB(180, 220, 255)
+
+-- Su dalgaları
+Terrain.WaterWaveSize = 0
+Terrain.WaterWaveSpeed = 0
